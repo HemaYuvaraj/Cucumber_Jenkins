@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = ".\\src\\test\\java\\com\\adactin\\feature\\Adactin.feature", glue = "com.adactin.stepdef",
-plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","pretty", "json:Cucumber3-Output/CucumberReport.json"})
+plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","pretty", "json:Cucumber-Output/CucumberReport.json"})
 public class Runner {
 	public static WebDriver driver;
 
